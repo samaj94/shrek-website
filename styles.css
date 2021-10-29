@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Shrek';
+  src: url('assets/shrek.ttf');
+}
+
+:root {
+  --primary-color: #898022;
+  --background-color: #B5BF63;
+}
+
+html {
+  background:var(--background-color);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Shrek';
+}
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+.title-info {
+  margin-bottom: 20px;
+}
+
+.title-photo {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+section h2 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 36px;
+}
+
+ul {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.info li {
+  list-style-type: "\1F983";
+}
+
+.survey li {
+  list-style-type: '\1F342';
+}
+a:hover {
+ color: var(--primary-color); 
+}
+
+a:visited {
+  color: black;
+}
