@@ -16,13 +16,18 @@ html {
 
 h1, h2, h3 {
   font-family: 'Shrek';
+  text-align: center;
+  color: var(--primary-color);
 }
 
 h1 {
   font-size: 64px;
-  text-align: center;
   margin-bottom: 0;
-  color: var(--primary-color);
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 24px;
 }
 
 .title-info {
@@ -44,14 +49,13 @@ section {
 }
 
 section h2 {
-  text-align: center;
-  color: var(--primary-color);
   font-size: 36px;
 }
 
 ul {
   max-width: 500px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-left: 150px;
 }
 
 .info li {
@@ -65,6 +69,31 @@ a:hover {
  color: var(--primary-color); 
 }
 
-a:visited {
+a {
   color: black;
+}
+
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  section {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  ul {
+    margin: 0;
+    max-width: none;
+  }
 }
