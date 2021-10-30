@@ -35,6 +35,7 @@ h3 {
 }
 
 .title-photo {
+  cursor: pointer;
   margin: 0 auto;
 }
 
