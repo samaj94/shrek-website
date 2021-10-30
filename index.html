@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
     <link rel="shortcut icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet"> 
     <!-- Color scheme can be found here https://applecolors.com/palette/45287-shrek-3-logo -->
     <title>Turkey is Love, Stuffing is Life</title>
-  </header>
+  </head>
   <body>
     <section class="title-info">
       <h1>Shreksgiving</h1>
@@ -16,6 +18,9 @@
       <img
         class="title-photo"
         src="assets/donkey.png"
+        alt="donkey-turkey"
+        width="300"
+        height="282"
         onclick="document.getElementById('all-star-song').play(); return false;"
       />
     </section>
@@ -24,26 +29,23 @@
         Info
       </h2>
       <ul class="info">
-        <li>Come on ogre <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDNpOTg2azBnZjZjdDJqZGlsaDRpYnNqNTEgc2FtYWo5NEBt&amp;tmsrc=samaj94%40gmail.com">November 19th, 2021 at 7pm</a></li>
-        <li>The address is <a href="https://www.google.com/maps/place/554+Dekalb+Ave,+Brooklyn,+NY+11205/@40.6909249,-73.9564685,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25b94a48ed225:0xb0f0c024416c0a49!8m2!3d40.6909209!4d-73.9542798" target="_blank">554 Dekalb Ave, Apt 2B, Brooklyn, NY</a></li>
+        <li>Come on ogre <a target="_blank" rel="noopener noreferrer" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDNpOTg2azBnZjZjdDJqZGlsaDRpYnNqNTEgc2FtYWo5NEBt&amp;tmsrc=samaj94%40gmail.com">November 19th, 2021 at 7pm</a></li>
+        <li>The address is <a rel="noopener noreferrer" href="https://www.google.com/maps/place/554+Dekalb+Ave,+Brooklyn,+NY+11205/@40.6909249,-73.9564685,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25b94a48ed225:0xb0f0c024416c0a49!8m2!3d40.6909209!4d-73.9542798" target="_blank">554 Dekalb Ave, Apt 2B, Brooklyn, NY</a></li>
       </ul>
     </section>
     <section>
       <h2>Sign Up</h2>
       <ul class="survey">
         <li>
-          <a href="https://docs.google.com/spreadsheets/d/1YpmWmTKB1Slj9ssbmZIIK3uLAQAPEhrEDuHZl3jJ_aI/edit?usp=sharing" target="_blank">
+          <a rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1YpmWmTKB1Slj9ssbmZIIK3uLAQAPEhrEDuHZl3jJ_aI/edit?usp=sharing" target="_blank">
             Sign up for Food and Costumes here
           </a>
         </li>
         <li>Please bring at least one dish or alcoholic beverage</li>
-        <li>Costumes are strongly encouraged, <a href="https://en.wikipedia.org/wiki/List_of_Shrek_characters" target="_blank">check here for ideas</a></li>
+        <li>Costumes are strongly encouraged, <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/List_of_Shrek_characters" target="_blank">check here for ideas</a></li>
         <li>If you don't know your costume/food, please sign up still so we know how many people are coming!</li>
       </ul>
     </section>
     <audio id="all-star-song" src="assets/all-star.mp3" preload="auto" loop="true">
-    <script>
-      document.getElementById('all-star-song').play();
-    </script> 
   </body>
 </html>
